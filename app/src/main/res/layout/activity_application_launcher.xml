@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ApplicationLauncher">
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_text_size_headline_material"
+        android:gravity="center_horizontal"
+        android:text="Nanodegree Applications" />
+
+    <Button
+        style="@style/PortfolioActionItemButton"
+        android:onClick="launchApplication"
+        android:text="@string/spotify_streamer" />
+
+    <Button
+        style="@style/PortfolioActionItemButton"
+        android:onClick="launchApplication"
+        android:text="@string/superduo_scores" />
+
+    <Button
+        style="@style/PortfolioActionItemButton"
+        android:onClick="launchApplication"
+        android:text="@string/superduo_library" />
+
+    <Button
+        style="@style/PortfolioActionItemButton"
+        android:onClick="launchApplication"
+        android:text="@string/build_it_bigger" />
+
+    <Button
+        style="@style/PortfolioActionItemButton"
+        android:onClick="launchApplication"
+        android:text="@string/xyz_reader" />
+
+    <Button
+        style="@style/PortfolioActionItemButton"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="launchApplication"
+        android:text="@string/capstone" />
+
+</LinearLayout>
